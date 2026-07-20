@@ -1,4 +1,4 @@
-# Sistema-de-Gesti-n-de-Cuentas-Bancarias
+# Sistema de Gestión de Cuentas Bancarias
 
 ## Descripción del Proyecto
 Este proyecto fue desarrollado como parte del módulo "Programación orientada a objetos". El objetivo principal es optimizar y mejorar la eficiencia del código del sistema del banco MexBank. 
