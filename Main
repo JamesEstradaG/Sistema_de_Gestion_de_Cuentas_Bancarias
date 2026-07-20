@@ -1,0 +1,23 @@
+package cuenta;
+
+public class Main {
+    public static void main (String [] args) {
+        
+        //Tarjeta de Crédito:
+        System.out.println("Prueba de la tarjeta de Crédito");
+        TarjetaCredito creditoActual = new TarjetaCredito (3000);
+        System.out.println("Deuda actual: $" + creditoActual.getMontoActual());
+        creditoActual.sumaInteres(15);
+        
+        System.out.println("\n Prueba de la tarjeta de Débito");
+        TarjetaDebito debitoActual = new TarjetaDebito (3000);
+        System.out.println("Saldo actual: $" + debitoActual.getMontoActual());
+        debitoActual.depositar(1000);
+        debitoActual.retirar(2000);
+        
+        System.out.println("\n Prueba de la Cuenta de Ahorro");
+        CuentaAhorro ahorroActual = new CuentaAhorro (5000);
+        System.out.println("Ahorro actual: $" + ahorroActual.getMontoActual());
+        ahorroActual.invertir(10);
+    }
+}
